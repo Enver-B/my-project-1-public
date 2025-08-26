@@ -1,3 +1,6 @@
+# my-project-1-public
+landing-page-Castaway
+
 # accelerator-first-project
 Стартовый репозиторий для работы над первым проектом в «Акселераторе» профессии «Фронтенд-разработчик»
 
