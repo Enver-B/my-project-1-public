@@ -1,0 +1,4 @@
+$primary-font: "DM Sans", "Arial", sans-serif;
+
+@include font-face("DM Sans", 400, normal, url("../../fonts/dmsans/DMSans-Regular.woff2") format("woff2"));
+@include font-face("DM Sans", 700, normal, url("../../fonts/dmsans/DMSans-Bold.woff2") format("woff2"));
