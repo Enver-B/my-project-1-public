@@ -1,0 +1,36 @@
+.header__wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 26px;
+  padding-right: 50px;
+  padding-bottom: 26px;
+  padding-left: 50px;
+}
+
+.header__logo-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.header__logo-link {
+  margin: 0;
+  padding: 0;
+  width: 159px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.header__logo-image {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 159px;
+  height: 32px;
+}

@@ -1,0 +1,22 @@
+.header-nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 403px;
+  margin: 0;
+  padding: 20px;
+  list-style: none;
+}
+
+.header-nav__item-link {
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  line-height: 27px;
+  letter-spacing: 0;
+  color: $color-default-white;
+  text-decoration: none;
+  cursor: pointer;
+}
