@@ -1,0 +1,96 @@
+.hero__wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 40px 50px 93px;
+
+  &::after {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 12px;
+    left: 24px;
+    width: 68px;
+    height: 74px;
+    margin: 0;
+    padding: 0;
+    background-image: url("../../../img/lines-effects-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 68px 74px;
+    z-index: 2;
+  }
+}
+
+.hero__image-wrap {
+  width: 650px;
+  height: 873px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.hero__image {
+  display: block;
+  width: 650px;
+  height: 873px;
+}
+
+.hero__text-wrap {
+  max-width: 526px;
+  margin: 0;
+  margin-bottom: 90px;
+  padding: 0;
+}
+
+.hero__text {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 88px;
+  letter-spacing: 3.2px;
+}
+
+.hero__text span {
+  position: relative;
+  font-size: 75px;
+
+  &::after {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 90px;
+    left: 81px;
+    width: 160px;
+    height: 88px;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    background-image: url("/__spritemap#sprite-lines-effects-2-view");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 160px 88px;
+  }
+}
+
+.hero__text b {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 88px;
+  letter-spacing: 3.2px;
+}
+
+.hero__radio-icons-wrap {
+  max-width: 289px;
+  margin: 0;
+  padding: 0 22px;
+}
