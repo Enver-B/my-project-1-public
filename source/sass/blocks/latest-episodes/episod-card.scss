@@ -1,0 +1,83 @@
+.episod-card__wrap {
+  display: flex;
+  gap: 53px;
+  margin: 0;
+  padding: 40px;
+  background-color: $color-black;
+  border: none;
+  border-radius: 32px;
+}
+
+.episod-card__image {
+  display: block;
+  width: 389px;
+  height: 465px;
+}
+
+.episod-card__mark-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 49px;
+  margin: 0;
+  margin-bottom: 18px;
+  padding: 0;
+}
+
+.episod-card__mark {
+  display: inline-block;
+  margin: 0;
+  padding: 0 16px;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0;
+  background-color: $color-nero;
+  border: none;
+  border-radius: 6px;
+}
+
+.episod-card__number {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  line-height: 27px;
+  letter-spacing: 0;
+  color: $color-eastern-blue;
+}
+
+.episod-card__title {
+  max-width: 701px;
+  margin: 0;
+  margin-bottom: 28px;
+  padding: 0;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 70.4px;
+  letter-spacing: 2.56px;
+}
+
+.episod-card__text {
+  max-width: 757px;
+  margin: 0;
+  margin-bottom: 18px;
+  padding: 0;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0;
+  color: $color-default-white-opacity-2;
+}
+
+.episod-card__button {
+  max-width: 208px;
+  margin: 0;
+  padding: 12px 15px 12px 20px;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0;
+  color: $color-default-white;
+  background-color: $color-eastern-blue;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

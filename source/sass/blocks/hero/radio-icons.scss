@@ -1,0 +1,108 @@
+.radio-icons__text {
+  margin: 0;
+  margin-bottom: 16px;
+  padding: 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+.radio-icons__list {
+  display: flex;
+  gap: 17px;
+  max-width: 245px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.radio-icons__link {
+  position: relative;
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.radio-icons__link-1 {
+  &::after {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 50%;
+    left: 50%;
+    width: 32px;
+    height: 32px;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    background-image: url("/__spritemap#sprite-icon-spotify-view");
+  }
+}
+
+.radio-icons__link-2 {
+  &::after {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 50%;
+    left: 50%;
+    width: 32px;
+    height: 32px;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    background-image: url("/__spritemap#sprite-icon-logo-2-view");
+  }
+}
+
+.radio-icons__link-3 {
+  &::after {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 50%;
+    left: 50%;
+    width: 32px;
+    height: 32px;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    background-image: url("/__spritemap#sprite-icon-logo-3-view");
+  }
+}
+
+.radio-icons__link-4 {
+  &::after {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 50%;
+    left: 50%;
+    width: 32px;
+    height: 32px;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    background-image: url("/__spritemap#sprite-icon-logo-4-view");
+  }
+}
+
+.radio-icons__link-5 {
+  &::after {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 50%;
+    left: 50%;
+    width: 32px;
+    height: 32px;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    background-image: url("/__spritemap#sprite-icon-logo-5-view");
+  }
+}
