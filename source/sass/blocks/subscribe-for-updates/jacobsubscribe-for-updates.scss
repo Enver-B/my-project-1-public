@@ -1,0 +1,52 @@
+.subscribe-for-updates__wrap {
+  margin: 0;
+  padding: 100px 50px;
+}
+
+.subscribe-for-updates__content-wrap {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 60px;
+  background-color: $color-black;
+  border: none;
+  border-radius: 32px;
+
+  &::after {
+    position: absolute;
+    content: "";
+    display: block;
+    bottom: -30px;
+    left: -40px;
+    width: 147px;
+    height: 91px;
+    margin: 0;
+    padding: 0;
+    background-image: url("../../../img/lines-effects-3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 147px 91px;
+    z-index: 2;
+  }
+}
+
+.subscribe-for-updates__mark {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0;
+  color: $color-eastern-blue;
+}
+
+.subscribe-for-updates__title {
+  max-width: 431px;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 79.2px;
+  letter-spacing: 2.88px;
+}
