@@ -1,0 +1,38 @@
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.subscribe-form__input-name,
+.subscribe-form__input-email {
+  min-width: 522px;
+  margin: 0;
+  padding: 26px 19px 27px;
+  font-size: 24px;
+  line-height: 28.8px;
+  letter-spacing: 0;
+  background-color: $color-nero;
+  border: 1px solid $color-nero;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.subscribe-form__button {
+  display: inline-block;
+  margin: 0;
+  padding: 9px 15px 10px 19px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 28.8px;
+  letter-spacing: 0;
+  color: $color-default-white-opacity-2;
+  background-color: $color-eastern-blue;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

@@ -221,23 +221,24 @@
 
         <div class="container">
           <div class="subscribe-for-updates__wrap">
-            <div class="subscribe-for-updates__title-wrap">
-              <span class="subscribe-for-updates__mark">Email Newsletter</span>
-              <h3 class="subscribe-for-updates__title">Subscribe for updates</h3>
+            <div class="subscribe-for-updates__content-wrap">
+              <div class="subscribe-for-updates__title-wrap">
+                <span class="subscribe-for-updates__mark">Email Newsletter</span>
+                <h3 class="subscribe-for-updates__title">Subscribe for updates</h3>
+              </div>
+              <form class="subscribe-for-updates__form subscribe-form" action="" method="post">
+                <div class="subscribe-form__field">
+                  <label class="subscribe-form__label visually-hidden" for="name">Имя</label>
+                  <input class="subscribe-form__input-name" id="name" type="text" name="name" placeholder="Name" pattern="^[A-Za-zА-Яа-яЁё\s]+$" required>
+                </div>
+                <div class="subscribe-form__field">
+                  <label class="subscribe-form__label visually-hidden" for="email">Имя</label>
+                  <input class="subscribe-form__input-email" id="email" type="email" name="email" placeholder="Email" required>
+                </div>
+                <button class="subscribe-form__button" type="submit">Submit</button>
+              </form>
             </div>
-            <form class="subscribe-for-updates__form subscribe-form" action="" method="post">
-              <div class="subscribe-form__field">
-                <label class="subscribe-form__label visually-hidden" for="name">Имя</label>
-                <input class="subscribe-form__input-name" id="name" type="text" name="name" pattern="^[A-Za-zА-Яа-яЁё\s]+$" required>
-              </div>
-              <div class="subscribe-form__field">
-                <label class="subscribe-form__label visually-hidden" for="email">Имя</label>
-                <input class="subscribe-form__input-email" id="email" type="email" name="email" required>
-              </div>
-              <button class="subscribe-form__button" type="submit">Submit</button>
-            </form>
           </div>
-
         </div>
       </section>
     </main>
