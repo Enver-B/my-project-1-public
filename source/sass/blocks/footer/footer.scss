@@ -1,0 +1,25 @@
+.footer__wrap {
+  display: grid;
+  grid-template-columns: 447px 374px 447px;
+  gap: 16px;
+  margin: 0;
+  padding: 100px 50px 116px;
+}
+
+.footer__logo-field {
+  max-width: 447px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__logo-wrap {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.footer__logo-link {
+  display: block;
+  width: 224px;
+  height: 46px;
+}
