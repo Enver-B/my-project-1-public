@@ -1,0 +1,13 @@
+.reviews__wrap {
+  margin: 0;
+  padding: 100px 50px;
+}
+
+.reviews__cards-list {
+  display: grid;
+  grid-template-columns: repeat(3, 423px);
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
