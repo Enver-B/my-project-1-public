@@ -23,7 +23,7 @@
   margin: 0;
   padding: 0;
   width: 159px;
-  height: 32px;
+  height: 33px;
   cursor: pointer;
 }
 
@@ -32,5 +32,15 @@
   margin: 0;
   padding: 0;
   width: 159px;
-  height: 32px;
+  height: 33px;
+}
+
+.header__logo-link:hover .header__logo-image {
+  filter: opacity(50%);
+  transition: filter 0.3s ease;
+}
+
+.header__logo-link:active .header__logo-image {
+  filter: opacity(30%);
+  transition: filter 0.3s ease;
 }
