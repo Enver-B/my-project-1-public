@@ -3,3 +3,4 @@
 // import {Navigation, Pagination} from "swiper/modules";
 // import 'swiper/css';
 import './modules/jacob-paulaner-slider.js';
+import './modules/init-latest-episodes-tabs.js';
