@@ -35,6 +35,15 @@
     mask-position: center;
     mask-size: 24px 24px;
   }
+
+  &:hover::after {
+    background-color: $color-default-white-opacity-2;
+  }
+
+  &:focus::after,
+  &:active::after {
+    background-color: $color-default-white-opacity-1;
+  }
 }
 
 .social-networks__link-instagram {

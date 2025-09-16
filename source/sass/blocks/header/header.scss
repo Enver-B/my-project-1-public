@@ -20,19 +20,12 @@
 }
 
 .header__logo-link {
-  margin: 0;
-  padding: 0;
-  width: 159px;
-  height: 33px;
-  cursor: pointer;
-}
-
-.header__logo-image {
   display: block;
-  margin: 0;
-  padding: 0;
   width: 159px;
   height: 33px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
 }
 
 .header__logo-link:hover .header__logo-image {
@@ -43,4 +36,12 @@
 .header__logo-link:active .header__logo-image {
   filter: opacity(30%);
   transition: filter 0.3s ease;
+}
+
+.header__logo-image {
+  display: block;
+  width: 159px;
+  height: 33px;
+  margin: 0;
+  padding: 0;
 }
