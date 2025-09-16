@@ -299,10 +299,10 @@
                   <input class="subscribe-form__input-name" id="name" type="text" name="name" placeholder="Name" pattern="^[A-Za-zА-Яа-яЁё\s]+$" required>
                 </div>
                 <div class="subscribe-form__field">
-                  <label class="subscribe-form__label visually-hidden" for="email">Имя</label>
-                  <input class="subscribe-form__input-email" id="email" type="email" name="email" placeholder="Email" required>
+                  <label class="subscribe-form__label visually-hidden" for="email">E-mail</label>
+                  <input class="subscribe-form__input-email" id="email" type="email" name="email" placeholder="Email" pattern="^\S+@\S+\.\S+$" required>
                 </div>
-                <button class="subscribe-form__button" type="submit">Submit</button>
+                <button class="subscribe-form__button" type="submit" data-button="form-button">Submit</button>
               </form>
             </div>
           </div>

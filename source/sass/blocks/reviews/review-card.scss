@@ -8,6 +8,11 @@
   background-color: $color-black;
   border: none;
   border-radius: 32px;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.02);
+  }
 }
 
 .review-card__icon-stars {

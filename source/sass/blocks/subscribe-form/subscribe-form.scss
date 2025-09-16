@@ -16,10 +16,23 @@
   font-size: 24px;
   line-height: 28.8px;
   letter-spacing: 0;
+  color: $color-default-white;
   background-color: $color-nero;
   border: 1px solid $color-nero;
   border-radius: 6px;
   cursor: pointer;
+
+  &:hover {
+    background-color: $color-default-white-opacity-1;
+    border: 1px solid $color-default-white-opacity-2;
+  }
+
+  &:focus,
+  &:active {
+    color: $color-default-white;
+    background-color: transparent;
+    border: 1px solid $color-default-white;
+  }
 }
 
 .subscribe-form__button {
@@ -35,4 +48,12 @@
   border: none;
   border-radius: 6px;
   cursor: pointer;
+
+  &:hover {
+    background-color: $color-eastern-blue-opacity-1;
+  }
+
+  &:active {
+    background-color: $color-eastern-blue-opacity-2;
+  }
 }

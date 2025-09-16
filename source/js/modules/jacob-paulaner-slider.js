@@ -28,5 +28,3 @@ function initSliderSwiper () {
 
 window.addEventListener('load', initSliderSwiper);
 window.addEventListener('resize', initSliderSwiper);
-
-//initSliderSwiper.init();
